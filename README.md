@@ -46,8 +46,3 @@ Synth mode passes a Midi note along with 3 control CCs all on the same channel. 
 
 Control Mode has a similar output to synth mode, but without the note on. On predefined outputs (Ableton or Bitwig), the channel and cc's sent by floatation are hard set and are intercepted by the script (included in the software folder in this package). X, Y, and Z ccs are mapped to device macros 1, 2, and 3. No Midi mapping or learning has to be done if you are using a script (Ableton or Bitwig). The scope of Control mode will update based on what device you have selected. AS you change devices, the display of floatation will update to match parameters 1, 2, and 3. Recorded automation of these macros will play back and animate on floatation.
 
-
-
-
-The use of macros untethers you from traditional midi mappings, where one signal controls the same parameter for an entire project. This lets you use floatation in many flexible ways for many different types of effects/processing. This allows for repetition of use. For instace, if you save a default rack for a filter with cutoff as macro 1 and resonance as macro 2. You will always get the same responce out of that filter when interacting with floatation. This repeatability allows for practice and precice control over the filter. Eventually you will get to know these presets like a guitar player gets to know the neck of the guitar. This allows you to act on instinct when producing and mixing rather than intellect or audio cemantics (hz, db, ect...). This abstraction can turn any complex audio effect into up/down left/right and in/out
-
