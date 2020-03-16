@@ -9,8 +9,12 @@ Open the Float app (if it was already open, you may have to restart the app to g
 
 ### Ableton Instructions
 
+// This path did not work
 Right-click on your Ableton Live application and select “Show Package Contents”. 
 Place the FloatationScript folder from the Ableton Folder in this package into Contents/App-Resources/MIDI Remote Scripts
+
+Place the FloatationScript folder from the Ableton Folder in this package into
+HD:/Users/[Username]/Library/Preferences/Ableton/Live x.x.x/User Remote Scripts
 
 Open the Preferences window
 Select the MIDI tab
@@ -45,9 +49,6 @@ The floatation app has 2 main modes: synth mode [sine.png] and control mode [aut
 Synth mode passes a Midi note along with 3 control CCs all on the same channel. This data is not intercepted byt the software as remote control data. Rather, it is only recieved by a synth if the synth's track is armed. This lets you use multiple synths, multiple tracks, and multiple presets without having to map or remap the CCs. Generally, synth vsts have a midi mapping that can be saved and used for all instances of the plugin.
 
 Control Mode has a similar output to synth mode, but without the note on. On predefined outputs (Ableton or Bitwig), the channel and cc's sent by floatation are hard set and are intercepted by the script (included in the software folder in this package). X, Y, and Z ccs are mapped to device macros 1, 2, and 3. No Midi mapping or learning has to be done if you are using a script (Ableton or Bitwig). The scope of Control mode will update based on what device you have selected. AS you change devices, the display of floatation will update to match parameters 1, 2, and 3. Recorded automation of these macros will play back and animate on floatation.
-
-
-
 
 The use of macros untethers you from traditional midi mappings, where one signal controls the same parameter for an entire project. This lets you use floatation in many flexible ways for many different types of effects/processing. This allows for repetition of use. For instace, if you save a default rack for a filter with cutoff as macro 1 and resonance as macro 2. You will always get the same responce out of that filter when interacting with floatation. This repeatability allows for practice and precice control over the filter. Eventually you will get to know these presets like a guitar player gets to know the neck of the guitar. This allows you to act on instinct when producing and mixing rather than intellect or audio cemantics (hz, db, ect...). This abstraction can turn any complex audio effect into up/down left/right and in/out
 
