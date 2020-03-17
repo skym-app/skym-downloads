@@ -6,9 +6,6 @@ import Live
 from _Framework.ControlSurface import ControlSurface
 from _Framework.InputControlElement import *
 from _Framework.ButtonElement import ButtonElement
-from _Framework.ButtonMatrixElement import ButtonMatrixElement
-from ConfigurableButtonElement import ConfigurableButtonElement
-from _Framework.SessionComponent import SessionComponent
 from _Framework.TransportComponent import TransportComponent
 from _Framework.DeviceComponent import DeviceComponent
 from _Framework.EncoderElement import EncoderElement
@@ -19,8 +16,6 @@ from _APC.DetailViewCntrlComponent import DetailViewCntrlComponent
 
 from DeviceNavComponent import DeviceNavComponent
 
-
-from _Framework.MixerComponent import MixerComponent # Class encompassing several channel strips to form a mixer
 from _Framework.SliderElement import SliderElement # Class representing a slider on the controller
 from consts import *
 mixer = None
@@ -81,12 +76,6 @@ class FLOAT(ControlSurface):
         self._device.set_bank_prev_button(down_bank_button)
         self._device.set_bank_next_button(up_bank_button)
 
-
-
-
-    def _set_session_highlight(self, track_offset, scene_offset, width, height, include_return_tracks):
-        if not self._suppress_session_highlight:
-            ControlSurface._set_session_highlight(self, track_offset, scene_offset, width, height, include_return_tracks)
 
     def disconnect(self):
         """clean things up on disconnect"""

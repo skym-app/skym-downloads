@@ -1,4 +1,3 @@
-#Christopher Zaworski, 2017
 
 CHANNEL = 15 
 	
