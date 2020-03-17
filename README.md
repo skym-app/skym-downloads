@@ -16,7 +16,7 @@ Open the Preferences window
 Select the MIDI tab
 Select your "FloatAbleton" in the Control Surface menu
 
-Define your ios device "iPhone" or "iPad" as the input and output of "FloatationScript"
+Define your ios device "iPhone" or "iPad" as the input and output of "FloatAbleton"
 
 Turn track and remote on for both the iphone input and output under the "MIDI Ports" bar
 
