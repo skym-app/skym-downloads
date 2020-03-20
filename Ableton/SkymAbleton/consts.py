@@ -5,11 +5,11 @@ CHANNEL = 15
 #use these in combination with the track select buttons to quickly navigate to
 #and control devices
 
-NEXT_DEVICE = 77
-PREVIOUS_DEVICE = 76
+NEXT_DEVICE = 20
+PREVIOUS_DEVICE = 21
 
-DEVICE_ON = 79
-DEVICE_LOCK = 78 #Locks your macro controls to current device regardless of where
+DEVICE_ON = 23
+DEVICE_LOCK = 22 #Locks your macro controls to current device regardless of where
 				 #you are in your session
 
 
