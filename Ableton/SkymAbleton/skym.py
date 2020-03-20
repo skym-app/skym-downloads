@@ -73,8 +73,8 @@ class skym(ControlSurface):
         self.set_device_component(self._device)
         self._device_nav = DeviceNavComponent()
         self._device_nav.set_device_nav_buttons(ButtonElement(True, MIDI_CC_TYPE, CHANNEL, PREVIOUS_DEVICE),ButtonElement(True, MIDI_CC_TYPE, CHANNEL, NEXT_DEVICE))
-        self._device.set_bank_prev_button(down_bank_button)
-        self._device.set_bank_next_button(up_bank_button)
+        # self._device.set_bank_prev_button(down_bank_button)
+        # self._device.set_bank_next_button(up_bank_button)
 
 
     def disconnect(self):
