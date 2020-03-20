@@ -6,7 +6,7 @@ host.defineController("Connor", "Float", "1.0", "132aff60-dda8-11e9-aaef-0800200
 
 host.defineMidiPorts(1, 1);
 
-load("Float_functions.js")
+load("Skym_functions.js")
 
 var paramValues =  initArray(0, 8);
 var currentDisplay = "n/a";
