@@ -2,7 +2,7 @@
 
 loadAPI(1);
 
-host.defineController("Connor", "Float", "1.0", "132aff60-dda8-11e9-aaef-0800200c9a66");
+host.defineController("Skym", "Skym", "1.0", "132aff60-dda8-11e9-aaef-0800200c9a66");
 
 host.defineMidiPorts(1, 1);
 
