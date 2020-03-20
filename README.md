@@ -1,4 +1,4 @@
-# Floatation
+# Skym
 
 ### Connection Instructions
 
