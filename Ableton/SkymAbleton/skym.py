@@ -21,7 +21,7 @@ from consts import *
 mixer = None
 
 
-class FLOAT(ControlSurface):
+class skym(ControlSurface):
     def __init__(self, c_instance):
         ControlSurface.__init__(self, c_instance)
         self._device_selection_follows_track_selection = True
