@@ -64,7 +64,7 @@ class skym(ControlSurface):
             device_param_controls.append(SliderElement(MIDI_CC_TYPE, CHANNEL, MACRO_CONTROLS[index]))
         self._device.set_parameter_controls(device_param_controls)
         # self._device.set_on_off_button(ButtonElement(True, MIDI_CC_TYPE, CHANNEL, DEVICE_ON))
-        # self._device.set_lock_button(ButtonElement(True, MIDI_CC_TYPE, CHANNEL, DEVICE_LOCK))
+        self._device.set_lock_button(ButtonElement(True, MIDI_CC_TYPE, CHANNEL, DEVICE_LOCK))
         # self._device.set_bank_down_value(ButtonElement(True, MIDI_CC_TYPE, CHANNEL, DEVICE_LOCK))
         # self._device.set_bank_up_value(ButtonElement(True, MIDI_CC_TYPE, CHANNEL, DEVICE_ON))
         up_bank_button = ButtonElement(True, MIDI_CC_TYPE, CHANNEL, DEVICE_ON)
