@@ -56,18 +56,13 @@ function onMidiPort1(status, data1, data2)
                 case 21 :
                     parameters.previousPage(data2)
                     break
-                // case 22
-                //     parameters.pinButton(data2)
-                    // break
+                case 22 :
+                    parameters.pinButton(data2)
+                    break
                 default :
                     parameters.control(data1,data2)
 
             }
-            // parameters.pageScroll(data1, data2)
-            // parameters.deviceScroll(data1, data2)
-            //parameters.output();
-            // parameters.control(data1,data2)
-    
         }
         // else if (status == 0xB0)
         // {

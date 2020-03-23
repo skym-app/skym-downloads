@@ -49,17 +49,19 @@ var parameters = {
         }
     },
 
-    // pinButton: function(data2)
-    // {
-    //     if (data2 == 0)
-    //     {
-    //         //unpin device
-    //     }
-    //     else
-    //     {
-    //         //pin device
-    //     }
-    // },
+    pinButton: function(data2)
+    {
+        if (data2 == 0)
+        {
+            host.println("unpinned")
+            cursorDevice.isPinned = false
+        }
+        else
+        {
+            host.println("pinned")
+            cursorDevice.isPinned = true
+        }
+    },
 
     update: function()
     {
