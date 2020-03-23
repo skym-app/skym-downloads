@@ -24,6 +24,20 @@ function init()
     cursorDevice = host.createEditorCursorDevice(2);
     parameters.update();
 
+    for ( var p = 0; p < 8; p++)
+    {
+        var parameter = cursorDevice.getParameter(p);
+        parameter.addValueObserver(128, makeIndexedFunction(p, function(index, value)
+        {
+            paramValues[index] = value;
+            {
+                paramLED(index, value);
+                
+            }
+        
+        }));
+    }
+
 }
 
 
@@ -34,13 +48,31 @@ function onMidiPort1(status, data1, data2)
     {
         if (status == 0xBF)
         {
- 
+            switch (data1)
+            {
+                case 20 :
+                    parameters.nextPage(data2)
+                    break
+                case 21 :
+                    parameters.previousPage(data2)
+                    break
+                // case 22
+                //     parameters.pinButton(data2)
+                    // break
+                default :
+                    parameters.control(data1,data2)
+
+            }
             // parameters.pageScroll(data1, data2)
             // parameters.deviceScroll(data1, data2)
             //parameters.output();
-            parameters.control(data1,data2)
+            // parameters.control(data1,data2)
     
         }
+        // else if (status == 0xB0)
+        // {
+
+        // }
     }
 }
 
