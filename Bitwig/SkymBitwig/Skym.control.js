@@ -1,4 +1,3 @@
-// TODO: Clean up code
 
 loadAPI(1);
 
@@ -21,7 +20,7 @@ function init()
     noteIn.setShouldConsumeEvents(false);
 
     // creates a view on tp the selected device
-    cursorDevice = host.createEditorCursorDevice(2);
+    cursorDevice = host.createEditorCursorDevice();
     parameters.update();
 
     for ( var p = 0; p < 8; p++)
