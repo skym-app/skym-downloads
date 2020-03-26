@@ -1,4 +1,4 @@
-# Skym
+# skym
 
 ### Connection Instructions
 
@@ -25,7 +25,7 @@ Turn track and remote on for both the iphone input and output under the "MIDI Po
 Place the SkymScript folder from the Bitwig Folder in this package into Bitwig Studio/Controller Scripts
 Open Bitwig preferences / settings and go to the "Controllers" tab 
 Select "+ add controller" at the bottom of the window
-Choose "Connor" ad the hardware vendor and "Skym" as the model
+Choose "Skym" ad the hardware vendor and "Skym" as the model
 Choose your ios device as both the input and output (it will be called iphone or ipad)
 
 ### Soft Synth Instructions
