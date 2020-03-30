@@ -19,6 +19,7 @@ function init()
     noteIn = host.getMidiInPort(0).createNoteInput("Notes", "?0????");
     noteIn.setShouldConsumeEvents(false);
 
+    sendInitCC();
     // creates a view on tp the selected device
     cursorDevice = host.createEditorCursorDevice();
     parameters.update();
