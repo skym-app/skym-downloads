@@ -5,7 +5,7 @@
 Connect your ios device to your mac with a usb cable
 Open "Audio MIDI Setup" on your mac
 click enable on your device
-Open the skym app (if it was already open, you may have to restart the app to gain proper connectivity)
+Open the skym app
 
 ### Ableton Instructions
 
