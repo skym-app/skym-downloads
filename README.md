@@ -1,4 +1,4 @@
-# skym
+# Skym
 
 ### Connection Instructions
 
