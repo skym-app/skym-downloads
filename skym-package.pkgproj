@@ -2351,7 +2351,14 @@
 								<key>CHILDREN</key>
 								<array/>
 								<key>DESCRIPTION</key>
-								<array/>
+								<array>
+									<dict>
+										<key>LANGUAGE</key>
+										<string>English</string>
+										<key>VALUE</key>
+										<string>This includes presets iin Logic's Alchemy synth that respond to input from Skym</string>
+									</dict>
+								</array>
 								<key>OPTIONS</key>
 								<dict>
 									<key>HIDDEN</key>
@@ -2400,7 +2407,14 @@
 								<key>CHILDREN</key>
 								<array/>
 								<key>DESCRIPTION</key>
-								<array/>
+								<array>
+									<dict>
+										<key>LANGUAGE</key>
+										<string>English</string>
+										<key>VALUE</key>
+										<string>This will install a script that will allow Skym to be used as a control surface</string>
+									</dict>
+								</array>
 								<key>OPTIONS</key>
 								<dict>
 									<key>HIDDEN</key>
@@ -2421,13 +2435,20 @@
 								<key>CHILDREN</key>
 								<array/>
 								<key>DESCRIPTION</key>
-								<array/>
+								<array>
+									<dict>
+										<key>LANGUAGE</key>
+										<string>English</string>
+										<key>VALUE</key>
+										<string>This includes presets that will automatically respond to Skym input.</string>
+									</dict>
+								</array>
 								<key>OPTIONS</key>
 								<dict>
 									<key>HIDDEN</key>
 									<false/>
 									<key>STATE</key>
-									<integer>1</integer>
+									<integer>2</integer>
 								</dict>
 								<key>PACKAGE_UUID</key>
 								<string>FE3A3FB9-DC56-4799-AFBB-D8EE5252AF22</string>
