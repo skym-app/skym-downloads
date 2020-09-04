@@ -1206,11 +1206,15 @@
 			<dict>
 				<key>POSTINSTALL_PATH</key>
 				<dict>
+					<key>PATH</key>
+					<string>/Users/connorgolden/Documents/skym-downloads/packageScripts/postScript.sh</string>
 					<key>PATH_TYPE</key>
 					<integer>0</integer>
 				</dict>
 				<key>PREINSTALL_PATH</key>
 				<dict>
+					<key>PATH</key>
+					<string>/Users/connorgolden/Documents/skym-downloads/packageScripts/postScript.sh</string>
 					<key>PATH_TYPE</key>
 					<integer>0</integer>
 				</dict>
@@ -1220,7 +1224,7 @@
 			<key>PACKAGE_SETTINGS</key>
 			<dict>
 				<key>AUTHENTICATION</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>FOLLOW_SYMBOLIC_LINKS</key>
@@ -2593,8 +2597,12 @@
 		<dict>
 			<key>ADVANCED_OPTIONS</key>
 			<dict>
+				<key>installer-script.domains:enable_anywhere</key>
+				<integer>0</integer>
 				<key>installer-script.domains:enable_currentUserHome</key>
 				<integer>1</integer>
+				<key>installer-script.domains:enable_localSystem</key>
+				<integer>0</integer>
 			</dict>
 			<key>BUILD_FORMAT</key>
 			<integer>0</integer>
