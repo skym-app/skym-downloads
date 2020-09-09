@@ -1206,15 +1206,11 @@
 			<dict>
 				<key>POSTINSTALL_PATH</key>
 				<dict>
-					<key>PATH</key>
-					<string>/Users/connorgolden/Documents/skym-downloads/packageScripts/postScript.sh</string>
 					<key>PATH_TYPE</key>
 					<integer>0</integer>
 				</dict>
 				<key>PREINSTALL_PATH</key>
 				<dict>
-					<key>PATH</key>
-					<string>/Users/connorgolden/Documents/skym-downloads/packageScripts/postScript.sh</string>
 					<key>PATH_TYPE</key>
 					<integer>0</integer>
 				</dict>
@@ -2390,7 +2386,7 @@
 										<key>LANGUAGE</key>
 										<string>English</string>
 										<key>VALUE</key>
-										<string>This includes presets iin Logic's Alchemy synth that respond to input from Skym</string>
+										<string>This includes presets for Logic's Alchemy synth that respond to input from Skym</string>
 									</dict>
 								</array>
 								<key>OPTIONS</key>
@@ -2639,7 +2635,7 @@
 			<key>BUILD_PATH</key>
 			<dict>
 				<key>PATH</key>
-				<string>Skym-Package</string>
+				<string>SkymPackage</string>
 				<key>PATH_TYPE</key>
 				<integer>1</integer>
 			</dict>
@@ -2812,7 +2808,7 @@
 				</dict>
 			</array>
 			<key>NAME</key>
-			<string>skym-package</string>
+			<string>SkymPackage</string>
 			<key>PAYLOAD_ONLY</key>
 			<false/>
 			<key>TREAT_MISSING_PRESENTATION_DOCUMENTS_AS_WARNING</key>
