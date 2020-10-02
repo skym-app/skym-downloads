@@ -1,2 +1,0 @@
-Welcome to the Skym Installer.
-This installer will allow you to use Skym presets in Logic Pro's Alchemy synth.
