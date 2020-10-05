@@ -1,3 +1,0 @@
-Welcome to the Skym Installer.
-
-This will install the scripts and presets that Skym will use with your DAW.
