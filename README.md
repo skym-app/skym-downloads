@@ -2,7 +2,7 @@
 
 This package includes controller scripts and presets to get Skym working with your DAW.
 
-If your standard folders for music software are in a custom location, you will have to skip the installer and move the files to your location
+If your standard folders for music software are in a custom location, you will have to skip the installer and move the files to your location.
 
 ## Install
 
@@ -23,6 +23,7 @@ if 'Remote Scripts' is not a folder, make it.
 move this folder **'/skym-downloads/SkymAbletonPresets'** to **'Ableton/User Library/Presets'**
 
 ### Serum
-move this folder **'/skym-downloads/Serum/SkymSerumPresets'** to your Serum Presets Folder
+move this folder **'/skym-downloads/Serum/SkymSerumPresets'** to your Serum Presets Folder.
+
 In Serum, click Menu (top right) then Show Serum Presets folder. Open the Presets folder.
 
