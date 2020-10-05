@@ -17,4 +17,12 @@ https://www.youtube.com/watch?v=H5dXbVhubdw&list=PLvmOotesk9R36ZM-3zVOdDu7kqKamc
 If your music software folders are not in a standard location, here is where to put each item...
 
 ### Ableton
+move this folder '/skym-downloads/Ableton/SkymAbleton' to '/Ableton/User Library/Remote Scripts'
+if 'Remote Scripts' is not a folder, make it.
+
+move this folder **'/skym-downloads/SkymAbletonPresets'** to **'Ableton/User Library/Presets'**
+
+### Serum
+move this folder **'/skym-downloads/Serum/SkymSerumPresets'** to your Serum Presets Folder
+In Serum, click Menu (top right) then Show Serum Presets folder. Open the Presets folder.
 
