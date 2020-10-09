@@ -27,3 +27,5 @@ move this folder **'/skym-downloads/Serum/SkymSerumPresets'** to your Serum Pres
 
 In Serum, click Menu (top right) then Show Serum Presets folder. Open the Presets folder.
 
+### Logic Pro
+move this folder **'/skym-downloads/Logic/SkymAlchemyPresets'** to **'~/Audio Music Apps/Plug-In Settings/Alchemy/SkymAlchemyPresets'**
