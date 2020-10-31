@@ -6,7 +6,7 @@ If your standard folders for music software are in a custom location, you will h
 
 ## Install
 
-If your music software folders are in the standard location, open SkymPackage.dmg and run SkymPackage.pkg.
+If your music software folders are in the standard location, run SkymPackage.pkg.
 
 ## Tutorials and Setup
 
