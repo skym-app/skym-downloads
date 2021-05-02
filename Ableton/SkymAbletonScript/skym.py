@@ -1,5 +1,4 @@
-
-from __future__ import with_statement
+from __future__ import absolute_import, print_function, unicode_literals
 
 import sys
 import Live
@@ -10,16 +9,14 @@ from _Framework.TransportComponent import TransportComponent
 from _Framework.DeviceComponent import DeviceComponent
 from _Framework.EncoderElement import EncoderElement
 from _Framework.SessionZoomingComponent import SessionZoomingComponent
-
 from _Framework.ChannelStripComponent import ChannelStripComponent
 from _APC.DetailViewCntrlComponent import DetailViewCntrlComponent
 
-from DeviceNavComponent import DeviceNavComponent
+from .DeviceNavComponent import DeviceNavComponent
 
 from _Framework.SliderElement import SliderElement # Class representing a slider on the controller
-from consts import *
+from .consts import *
 mixer = None
-
 
 class skym(ControlSurface):
     def __init__(self, c_instance):
@@ -32,26 +29,26 @@ class skym(ControlSurface):
             is_momentary = True
             self._suggested_input_port = 'iPhone'
             self._suggested_output_port = 'iPhone'
-            self.log("BEFORE mixer")
             self._setup_mixer_control()
             self._setup_device_control()
 
 
-    def log(self, message):
+    """def log(self, message):
         sys.stderr.write("LOG: " + message.encode("utf-8"))
+    """
 
 
     def _setup_mixer_control(self):
         """TRANSPORT CONTROLS"""
         stop_button = ButtonElement(False, MIDI_CC_TYPE, 0, STOP_BUTTON)
         play_button = ButtonElement(False, MIDI_CC_TYPE, 0, PLAY_BUTTON)
-        record_button = ButtonElement(False,MIDI_CC_TYPE,0,RECORD_BUTTON)
+        record_button = ButtonElement(False, MIDI_CC_TYPE, 0, RECORD_BUTTON)
         transport = TransportComponent()
         transport.set_stop_button(stop_button)
         transport.set_play_button(play_button)
         transport.set_overdub_button(record_button)
         transport.set_overdub_button(record_button)
-        transport.set_seek_buttons(ButtonElement(False,MIDI_CC_TYPE,0,SEEK_LEFT),ButtonElement(False,MIDI_CC_TYPE,0,SEEK_RIGHT))
+        transport.set_seek_buttons(ButtonElement(False, MIDI_CC_TYPE, 0, SEEK_LEFT), ButtonElement(False, MIDI_CC_TYPE, 0, SEEK_RIGHT))
 
     def _setup_device_control(self):
         is_momentary = True
@@ -72,7 +69,7 @@ class skym(ControlSurface):
         # self._device.set_bank_buttons(down_bank_button, up_bank_button)
         self.set_device_component(self._device)
         self._device_nav = DeviceNavComponent()
-        self._device_nav.set_device_nav_buttons(ButtonElement(True, MIDI_CC_TYPE, CHANNEL, PREVIOUS_DEVICE),ButtonElement(True, MIDI_CC_TYPE, CHANNEL, NEXT_DEVICE))
+        self._device_nav.set_device_nav_buttons(ButtonElement(True, MIDI_CC_TYPE, CHANNEL, PREVIOUS_DEVICE), ButtonElement(True, MIDI_CC_TYPE, CHANNEL, NEXT_DEVICE))
         # self._device.set_bank_prev_button(down_bank_button)
         # self._device.set_bank_next_button(up_bank_button)
 
