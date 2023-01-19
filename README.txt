@@ -19,9 +19,7 @@ If your music software folders are not in a standard location, or cannot run the
 - Ableton
 move this folder '/skym-downloads/Ableton/SkymAbletonScript' to '/Ableton/User Library/Remote Scripts'
 if 'Remote Scripts' is not a folder, create it.
-The standard location for this 'Ableton' folder is 'User/Music/Ableton'
-
-move this folder '/skym-downloads/SkymAbletonPresets' to 'Ableton/User Library/Presets'
+The standard location for this 'Ableton' folder is 'User/Music/Ableton', but the User Library can be located in Ableton Preferences / Library
 
 - Serum
 move this folder '/skym-downloads/Serum/SkymSerumPresets' to your Serum Presets Folder.
